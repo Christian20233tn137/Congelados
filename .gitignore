@@ -1,0 +1,46 @@
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribución
+dist/
+build/
+*.egg-info/
+
+# ── Node / Vite ──────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── Variables de entorno ─────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Editores e IDEs ──────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Sistema operativo ────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────
+*.log
+npm-debug.log*

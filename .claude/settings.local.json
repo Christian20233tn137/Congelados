@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:florentine-bug-aec.notion.site)",
+      "Bash(pip install *)"
+    ]
+  }
+}
